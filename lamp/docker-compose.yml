@@ -40,7 +40,7 @@ services:
 # Setup the Database (MySQL) container
 ###########################
     mysql:
-        image: mysql:latest
+        image: mysql:5.7
         expose:
             - 3306
         volumes:
